@@ -1,0 +1,16 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+reportlab==4.1.0
+Pillow==9.5.0
+numpy==1.26.4
+opencv-python-headless==4.8.1.78
+ultralytics==8.3.0
+python-multipart==0.0.6
+matplotlib==3.8.1
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==3.2.2
+sqlalchemy==2.0.45
+torch==2.6.0
+python-multipart
+sqlalchemy

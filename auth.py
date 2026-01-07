@@ -3,9 +3,10 @@ from typing import Optional
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 from pydantic import BaseModel
+import os
 
 # Configuration
-SECRET_KEY = "your-secret-key-change-in-production-123456789"  # GANTI ini saat deploy!
+SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-change-in-production-123456789")  # GANTI ini saat deploy!
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24  # 24 hours
 
